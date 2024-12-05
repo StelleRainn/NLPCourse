@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抽取式问答系统</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>抽取式问答系统</h1>
+        <form method="post">
+            <label for="doc">文本段落:</label>
+            <textarea id="doc" name="doc" rows="5" cols="50">{{ doc }}</textarea>
+            <br>
+            <label for="query">提问:</label>
+            <input type="text" id="query" name="query" value="{{ query }}">
+            <br>
+            <button type="submit">提交问题</button>
+        </form>
+        {% if answer %}
+        <h3>回答: {{ answer }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
