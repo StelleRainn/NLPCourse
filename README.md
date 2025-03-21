@@ -1,6 +1,9 @@
-# myQA-中文自动问答系统
+# My final project of the NLP course
 
-~~**myQA这名字只是为了方便记忆暂定的*~~
+*On Mar 21st, update and leave this message:
+保留此界面以铭记那段合作的时光。
+并未对此深入研究，仅仅是跑通了别人的代码，后加以定制，完成结课项目。
+感谢开源精神。*
 
 ## Flask项目结构
 
