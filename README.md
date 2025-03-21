@@ -1,6 +1,6 @@
 # My final project of the NLP course
 
-*On Mar 21st, update and leave this message:*
+*On Mar 21st, 2025, update and leave this message:*
 
 *保留此界面以铭记那段合作的时光。*
 
